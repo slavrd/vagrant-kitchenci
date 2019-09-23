@@ -18,6 +18,7 @@ pip install -r ./requirements.txt
 # install HashiCorp products
 sudo python download-hc-products.py terraform
 sudo python download-hc-products.py vagrant
+sudo python download-hc-products.py packer
 
 # clean up
 sudo rm -rf /tmp/*
