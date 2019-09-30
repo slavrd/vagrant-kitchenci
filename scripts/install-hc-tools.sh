@@ -8,7 +8,6 @@ which ${PKGS} >>/dev/null || {
     sudo apt-get install -y ${PKGS}
 }
 
-cd /tmp
 git clone https://github.com/slavrd/py-download-hc-product.git
 cd py-download-hc-product
 
